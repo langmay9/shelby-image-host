@@ -2,27 +2,49 @@
 <html>
 <head>
 <title>Shelby Image Host</title>
+
 <style>
+
 body{
 font-family:Arial;
 text-align:center;
-background:#111;
+background:linear-gradient(135deg,#0f172a,#1e293b);
 color:white;
+margin:0;
+padding:40px;
+}
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+p{
+color:#cbd5f5;
+margin-bottom:40px;
 }
 
 img{
 width:400px;
 margin:20px;
-border-radius:10px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+transition: transform 0.3s;
 }
+
+img:hover{
+transform:scale(1.05);
+}
+
 </style>
+
 </head>
 
 <body>
 
 <h1>Shelby Image Hosting Demo</h1>
 
-<p>High resolution images stored with Shelby decentralized storage.</p>
+<p>High resolution gaming images delivered using decentralized storage concepts.</p>
 
 <img src="cyberpunk.jpg">
 <img src="eldenring.jpg">
